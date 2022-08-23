@@ -19,3 +19,8 @@ p {
     font-weight: bold;
     font-family: Helvetica, sans-serif;
 }
+
+.food-picture {
+    width: 300px;
+    height: auto;
+}
