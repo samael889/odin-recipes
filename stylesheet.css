@@ -1,3 +1,7 @@
+body {
+    background-color:linen;
+}
+
 .main {
 background-color: lightgray;
 text-align:center;
@@ -8,23 +12,23 @@ text-align:center;
     font-weight: 700;
     font-size: 22px;
 }
-
+/*h1 affects all pages giving hem dark red banners with white letters.*/
 h1 {
     background-color:darkred;
     font-size: 30px;
-    color: whitesmoke;
+    color: white;
 }
 
 p {
     font-weight: bold;
     font-family: Helvetica, sans-serif;
 }
-
+/* food-picture makes all images within recipe pages the same.*/
 .food-picture {
     width: 300px;
     height: auto;
 }
-
+/*This centers all images in the recipe pages.*/
 .center {
     display: block;
     margin-left: auto;
