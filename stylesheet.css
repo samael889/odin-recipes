@@ -1,14 +1,14 @@
 body {
-    background-color:linen;
+    background-color:lightgray;
     margin: 0 10px;
     border-style: solid;
 }
-
+/* .main only affects the index page */
 .main {
 background-color: lightgray;
 text-align:center;
 }
-/*main-body alters the div that the recipe links sit in*/
+/*main-body alters the div on the index page that the recipe links are in*/
 #main-body {
     border:2px solid whitesmoke;
     padding: 10px;
@@ -30,6 +30,7 @@ h1 {
     padding: 5px;
 }
 
+/* the p property changes the paragraph style on all pages to keep them the same */
 p {
     font-weight: bold;
     font-family: Helvetica, sans-serif;
@@ -38,6 +39,8 @@ p {
 .food-picture {
     width: 300px;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*This centers all images in the recipe pages.*/
 .center {
@@ -45,4 +48,10 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+/* .recipe-body changes the bodys of the recipe pages. */
+
+.recipe-body {
+    background-color: lightgrey;
 }
