@@ -8,7 +8,14 @@ body {
 background-color: lightgray;
 text-align:center;
 }
-
+/*main-body alters the div that the recipe links sit in*/
+#main-body {
+    border:2px solid whitesmoke;
+    padding: 10px;
+    width: 300px;
+    margin-left:  auto;
+    margin-right: auto;
+}
 .recipe-link {
     font-family: sans-serif, 'Times New Roman';
     font-weight: 700;
